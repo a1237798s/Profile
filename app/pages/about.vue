@@ -8,7 +8,7 @@
     <div class="about-content">
       <div class="about-card">
         <div class="card-header">
-          <div class="terminal-icon">◢</div>
+          <div class="terminal-icon"><Icon name="material-symbols:person" size="28" /></div>
           <h2>個人簡介</h2>
         </div>
         <div class="about-text">
@@ -20,60 +20,74 @@
 
       <div class="about-card">
         <div class="card-header">
-          <div class="terminal-icon">◣</div>
+          <div class="terminal-icon"><Icon name="material-symbols:work" size="28" /></div>
           <h2>工作經驗</h2>
         </div>
         <div class="experience-list">
           <div class="experience-item">
-            <h3>資深軟體工程師</h3>
-            <p class="company">某科技公司 | 2022 - 現在</p>
+            <h3>軟體工程師</h3>
+            <p class="company">金豐企業管理顧問股份有限公司 | 2025.05 - 現在</p>
             <ul>
               <li>負責企業級後台管理系統開發</li>
               <li>使用 ASP.NET Core 與 Vue.js 技術棧</li>
-              <li>優化系統效能，提升用戶體驗</li>
             </ul>
           </div>
           <div class="experience-item">
-            <h3>軟體工程師</h3>
-            <p class="company">某軟體公司 | 2020 - 2022</p>
+            <h3>營業員</h3>
+            <p class="company">統一綜合證券 | 2022.09 - 2024.04</p>
             <ul>
-              <li>參與多個 Web 應用專案開發</li>
-              <li>使用 C#、ASP.NET MVC 技術</li>
-              <li>與團隊協作完成專案交付</li>
+              <li>負責客戶證券帳戶開立、投資諮詢與後續維護，熟悉各類金融商品與交易流程</li>
+              <li>協助數位金融系統操作教學，並回報使用者反饋供內部優化</li>
+              <li>參與內部 Web 系統改善任務，使用 C# 與 ASP.NET MVC 優化報表與管理功能</li>
+              <li>跨部門協作推進業務流程數位化，提升團隊工作效率</li>
             </ul>
           </div>
         </div>
       </div>
-
       <div class="about-card">
         <div class="card-header">
-          <div class="terminal-icon">◤</div>
+          <div class="terminal-icon"><Icon name="mdi:laptop" size="28" /></div>
+          <h2>專業訓練</h2>
+        </div>
+
+        <div class="education-item">
+          <h3>全端工程師就業養成班</h3>
+          <p class="school">資展國際(資策會) 2024.09 - 2025.03</p>
+          <p>涵蓋 C#、ASP.NET、MSQL、HTML、CSS、JavaScript、Vue.js、RWD 設計、API 串接與團隊協作流程。</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="card-header">
+          <div class="terminal-icon"><Icon name="material-symbols:school" size="28" /></div>
           <h2>教育背景</h2>
         </div>
         <div class="education-item">
-          <h3>資訊工程學系</h3>
-          <p class="school">某大學 | 2016 - 2020</p>
-          <p>主修軟體工程，學習程式設計、資料結構、演算法等核心課程。</p>
+          <h3>金融資訊系</h3>
+          <p class="school">國立高雄科技大學 | 2018.09 - 2022.06</p>
+          <p>
+            主修金融科技與資訊管理，結合金融理論與實務應用，深入學習金融市場、投資學、財務工程等核心知識。 同時修習資料分析、Python
+            程式設計、區塊鏈與金融科技應用等課程，具備跨領域整合能力。
+          </p>
         </div>
       </div>
 
       <div class="about-card">
         <div class="card-header">
-          <div class="terminal-icon">◥</div>
+          <div class="terminal-icon"><Icon name="material-symbols:mail" size="28" /></div>
           <h2>聯絡方式</h2>
         </div>
         <div class="contact-info">
           <div class="contact-item">
             <span class="contact-label">Email:</span>
-            <a href="mailto:raiter0010304@gmail.com">raiter0010304@gmail.com</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raiter0010304@gmail.com" target="_blank" rel="noopener">raiter0010304@gmail.com</a>
           </div>
           <div class="contact-item">
             <span class="contact-label">GitHub:</span>
             <a href="https://github.com/a1237798s" target="_blank">github.com/a1237798s</a>
           </div>
           <div class="contact-item">
-            <span class="contact-label">LinkedIn:</span>
-            <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a>
+            <span class="contact-label">Line:</span>
+            <a href="https://line.me/ti/p/6tpZWQWJsL" target="_blank">點我掃描 Line QR Code</a>
           </div>
         </div>
       </div>
@@ -205,6 +219,7 @@ useHead({
   color: #00ff00;
   text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
   background: rgba(0, 255, 0, 0.1);
+  /* padding-top: 0.rem; */
   padding: 0.5rem;
   border-radius: 4px;
   border: 1px solid rgba(0, 255, 0, 0.2);

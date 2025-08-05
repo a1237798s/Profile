@@ -68,19 +68,19 @@
           </div>
           <div class="links-grid">
             <NuxtLink to="/about" class="link-item">
-              <div class="link-icon">◢</div>
+              <div class="link-icon"><Icon name="material-symbols:person-book" size="28" /></div>
               <span>About</span>
             </NuxtLink>
             <NuxtLink to="/skill" class="link-item">
-              <div class="link-icon">◣</div>
+              <div class="link-icon"><Icon name="material-symbols:build" size="28" /></div>
               <span>Skills</span>
             </NuxtLink>
             <a href="mailto:raiter0010304@gmail.com" class="link-item">
-              <div class="link-icon">◤</div>
+              <div class="link-icon"><Icon name="material-symbols:mail" size="28" /></div>
               <span>Contact</span>
             </a>
             <a href="https://github.com/a1237798s" target="_blank" class="link-item">
-              <div class="link-icon">◥</div>
+              <div class="link-icon"><Icon name="octicon:mark-github-24" size="28" /></div>
               <span>GitHub</span>
             </a>
           </div>

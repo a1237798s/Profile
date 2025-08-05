@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   ssr: false,
   // SEO 配置
   app: {
-    baseURL: "/Profile/",
+    baseURL: "/profile/",
     head: {
       title: "邱炫銘 | 個人履歷網站 | 全端工程師 | Software Engineer",
       meta: [
@@ -58,7 +58,7 @@ export default defineNuxtConfig({
         { name: "availability", content: "可面試" },
       ],
       link: [
-        { rel: "icon", type: "image/x-icon", href: process.env.NODE_ENV === "production" ? "/Profile/favicon.ico" : "/favicon.ico" },
+        { rel: "icon", type: "image/x-icon", href: process.env.NODE_ENV === "production" ? "/profile/favicon.ico" : "/favicon.ico" },
         {
           rel: "canonical",
           href: "https://a1237798s.github.io/profile/",
