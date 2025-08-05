@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master #更改成你的分支
+      - dev #更改成你的分支
 jobs:
   build:
     runs-on: ubuntu-latest
