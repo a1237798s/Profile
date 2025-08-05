@@ -58,7 +58,7 @@ export default defineNuxtConfig({
         { name: "availability", content: "可面試" },
       ],
       link: [
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "icon", type: "image/x-icon", href: process.env.NODE_ENV === "production" ? "/Profile/favicon.ico" : "/favicon.ico" },
         {
           rel: "canonical",
           href: "https://a1237798s.github.io/profile/",
