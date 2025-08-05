@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://a1237798s.github.io/profile/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1

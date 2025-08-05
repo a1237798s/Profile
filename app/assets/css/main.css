@@ -1,0 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: "Courier New", monospace;
+  color: #0f0;
+  overflow-x: hidden; /* ✅ 禁止橫向滾動，但允許垂直 */
+  overflow-y: auto; /* ✅ 可垂直滾動 */
+}
