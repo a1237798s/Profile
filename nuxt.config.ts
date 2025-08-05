@@ -4,10 +4,10 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-08-05",
   devtools: { enabled: true },
   modules: ["@nuxt/icon"],
-  ssr: true,
+  ssr: false,
   // SEO 配置
   app: {
-    baseURL: "/profile/",
+    baseURL: "/Profile/",
     head: {
       title: "邱炫銘 | 個人履歷網站 | 全端工程師 | Software Engineer",
       meta: [
