@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-08-05",
   devtools: { enabled: true },
   modules: ["@nuxt/icon"],
-  ssr: false,
+  ssr: true,
   // SEO 配置
   app: {
     baseURL: "/profile/",
@@ -18,6 +18,7 @@ export default defineNuxtConfig({
           content:
             "你好我是邱炫銘 Raiter - 全端工程師 | Software Engineer，這是我的履歷網頁，專精 C#、ASP.NET、Vue.js、SQL Server 開發。具備企業級系統開發經驗，能獨立完成全端專案。歡迎企業合作與面試機會。",
         },
+        { name: "rating", content: "general" },
         { name: "author", content: "Raiter" },
         { name: "robots", content: "index, follow" },
         { name: "googlebot", content: "index, follow" },
@@ -142,6 +143,7 @@ export default defineNuxtConfig({
 
   // 靜態網站生成配置 (適用於 GitHub Pages)
   nitro: {
+    preset: "static",
     prerender: {
       routes: ["/", "/about", "/skill"],
     },
