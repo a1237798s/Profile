@@ -40,6 +40,7 @@ main {
   .content {
     width: 100%;
     min-width: 250px;
+    padding: 1rem;
   }
 }
 </style>

@@ -439,7 +439,7 @@ useHead({
 /* 響應式設計 */
 @media (max-width: 768px) {
   .about-container {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .about-title {
