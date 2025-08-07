@@ -33,10 +33,17 @@
             </ul>
           </div>
           <div class="experience-item">
+            <h3>理財專員</h3>
+            <p class="company">永豐金證券 | 2024.04 - 2024.07</p>
+            <ul>
+              <li>持有證券分析師資格及多項金融專業證照，進一步承接高資產客戶，依其風險屬性與財務目標提供資產配置建議。</li>
+              <li>延續既有客戶開發經驗，強化關係經營與客製化金融方案設計，促進產品成交與長期合作。</li>
+            </ul>
+          </div>
+          <div class="experience-item">
             <h3>營業員</h3>
             <p class="company">統一綜合證券 | 2022.09 - 2024.04</p>
             <ul>
-              <li>具備證券分析師資格及多項金融證照，能針對不同投資屬性提供專業資產配置建議。</li>
               <li>負責客戶開發與關係維護，根據客戶需求提供量身打造的金融解決方案，提升客戶滿意度與產品成交率。</li>
               <li>擅長分析各類金融商品（含股票、債券、基金、ETF），熟悉市場趨勢追蹤與風險評估。</li>
               <li>整理使用者回饋並回報內部團隊，促進功能優化與流程改善。</li>
@@ -301,7 +308,7 @@ useHead({
 .experience-item li {
   color: #00dd00;
   margin-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding-left: 1.2rem;
   position: relative;
   text-shadow: 0 0 3px rgba(0, 255, 0, 0.3);
 }
@@ -309,6 +316,7 @@ useHead({
 .experience-item li::before {
   content: "◢";
   position: absolute;
+  top: 0.25rem;
   left: 0;
   color: #00ff00;
   text-shadow: 0 0 5px rgba(0, 255, 0, 0.8);
