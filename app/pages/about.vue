@@ -36,10 +36,10 @@
             <h3>營業員</h3>
             <p class="company">統一綜合證券 | 2022.09 - 2024.04</p>
             <ul>
-              <li>負責客戶證券帳戶開立、投資諮詢與後續維護，熟悉各類金融商品與交易流程</li>
-              <li>協助數位金融系統操作教學，並回報使用者反饋供內部優化</li>
-              <li>參與內部 Web 系統改善任務，使用 C# 與 ASP.NET MVC 優化報表與管理功能</li>
-              <li>跨部門協作推進業務流程數位化，提升團隊工作效率</li>
+              <li>具備證券分析師資格及多項金融證照，能針對不同投資屬性提供專業資產配置建議。</li>
+              <li>負責客戶開發與關係維護，根據客戶需求提供量身打造的金融解決方案，提升客戶滿意度與產品成交率。</li>
+              <li>擅長分析各類金融商品（含股票、債券、基金、ETF），熟悉市場趨勢追蹤與風險評估。</li>
+              <li>整理使用者回饋並回報內部團隊，促進功能優化與流程改善。</li>
             </ul>
           </div>
         </div>
@@ -49,11 +49,31 @@
           <div class="terminal-icon"><Icon name="mdi:laptop" size="28" /></div>
           <h2>專業訓練</h2>
         </div>
-
         <div class="education-item">
           <h3>全端工程師就業養成班</h3>
           <p class="school">資展國際(資策會) 2024.09 - 2025.03</p>
           <p>涵蓋 C#、ASP.NET、MSQL、HTML、CSS、JavaScript、Vue.js、RWD 設計、API 串接與團隊協作流程。</p>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="card-header">
+          <div class="terminal-icon"><Icon name="material-symbols:verified" size="28" /></div>
+          <h2>金融證照</h2>
+        </div>
+        <div class="certificates-simple">
+          <ul class="certificate-list">
+            <li><span class="cert-name">證券分析師</span></li>
+            <li><span class="cert-name">高級證券商業務員</span></li>
+            <li><span class="cert-name">投信投顧業務員</span></li>
+            <li><span class="cert-name">期貨商業務員</span></li>
+            <li><span class="cert-name">信託業務員</span></li>
+            <li><span class="cert-name">人身保險業務員</span></li>
+            <li><span class="cert-name">財產保險業務員</span></li>
+            <li><span class="cert-name">投資型保險商品業務員</span></li>
+            <li><span class="cert-name">外幣收付非投資型保險業務員</span></li>
+            <li><span class="cert-name">金融市場常識與職業道德</span></li>
+          </ul>
         </div>
       </div>
       <div class="about-card">
@@ -87,7 +107,7 @@
           </div>
           <div class="contact-item">
             <span class="contact-label">Line:</span>
-            <a href="https://line.me/ti/p/6tpZWQWJsL" target="_blank">點我掃描 Line QR Code</a>
+            <a href="https://line.me/ti/p/6tpZWQWJsL" target="_blank">點我掃描 QR Code</a>
           </div>
         </div>
       </div>
@@ -206,6 +226,12 @@ useHead({
 .about-card:nth-child(4) {
   animation-delay: 0.8s;
 }
+.about-card:nth-child(5) {
+  animation-delay: 1s;
+}
+.about-card:nth-child(6) {
+  animation-delay: 1.2s;
+}
 
 .card-header {
   display: flex;
@@ -286,6 +312,42 @@ useHead({
   left: 0;
   color: #00ff00;
   text-shadow: 0 0 5px rgba(0, 255, 0, 0.8);
+}
+
+.certificates-simple {
+  padding: 0.5rem 0;
+}
+
+.certificate-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.6rem;
+}
+
+.certificate-list li {
+  color: #00dd00;
+  line-height: 1.4;
+  padding: 0.4rem 0.8rem;
+  background: rgba(0, 255, 0, 0.05);
+  border-radius: 6px;
+  border: 1px solid rgba(0, 255, 0, 0.1);
+  text-shadow: 0 0 3px rgba(0, 255, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.certificate-list li:hover {
+  background: rgba(0, 255, 0, 0.1);
+  border-color: rgba(0, 255, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+.cert-name {
+  color: #00ff00;
+  font-weight: 600;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
 
 .education-item h3 {

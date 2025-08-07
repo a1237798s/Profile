@@ -138,32 +138,33 @@ useHead({
 const frontendSkills = ref([
   {
     name: "HTML",
-    percent: 95,
+    percent: 90,
     color: "linear-gradient(90deg, #00ff00, #00cc00)",
   },
   {
     name: "CSS",
-    percent: 85,
+    percent: 90,
     color: "linear-gradient(90deg, #00dd00, #00aa00)",
   },
   {
-    name: "JavaScript",
-    percent: 90,
-    color: "linear-gradient(90deg, #00ff00, #00bb00)",
-  },
-  {
     name: "Vue.js",
-    percent: 85,
+    percent: 90,
     color: "linear-gradient(90deg, #00ee00, #009900)",
   },
   {
+    name: "JavaScript",
+    percent: 85,
+    color: "linear-gradient(90deg, #00ff00, #00bb00)",
+  },
+
+  {
     name: "Nuxt",
-    percent: 60,
+    percent: 80,
     color: "linear-gradient(90deg, #00cc00, #007700)",
   },
   {
     name: "React",
-    percent: 60,
+    percent: 70,
     color: "linear-gradient(90deg, #00bb00, #006600)",
   },
 ]);
@@ -171,7 +172,7 @@ const frontendSkills = ref([
 const backendSkills = ref([
   {
     name: "C#",
-    percent: 90,
+    percent: 95,
     color: "linear-gradient(90deg, #00ff00, #00dd00)",
   },
   {
@@ -181,12 +182,12 @@ const backendSkills = ref([
   },
   {
     name: "ASP.NET MVC",
-    percent: 85,
+    percent: 90,
     color: "linear-gradient(90deg, #00dd00, #00bb00)",
   },
   {
     name: "Entity Framework 4.8",
-    percent: 70,
+    percent: 80,
     color: "linear-gradient(90deg, #00cc00, #00aa00)",
   },
   {
@@ -196,7 +197,7 @@ const backendSkills = ref([
   },
   {
     name: "Java",
-    percent: 40,
+    percent: 50,
     color: "linear-gradient(90deg, #00aa00, #007700)",
   },
 ]);
@@ -209,12 +210,12 @@ const databaseSkills = ref([
   },
   {
     name: "MySQL",
-    percent: 70,
+    percent: 80,
     color: "linear-gradient(90deg, #00ee00, #00bb00)",
   },
   {
     name: "MongoDB",
-    percent: 60,
+    percent: 70,
     color: "linear-gradient(90deg, #00dd00, #00aa00)",
   },
 ]);

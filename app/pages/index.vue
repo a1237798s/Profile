@@ -116,19 +116,11 @@ useHead({
     },
     {
       name: "keywords",
-      content: "履歷網頁 ,全端工程師履歷, Software Engineer, C# 開發者, ASP.NET 工程師, Vue.js 開發, SQL Server, 軟體工程師求職, 後端開發, 前端開發",
+      content: "個人履歷, 履歷網頁 ,全端工程師履歷, Software Engineer, C# 開發者, ASP.NET 工程師, Vue.js 開發, SQL Server, 軟體工程師求職, 後端開發, 前端開發",
     },
     {
       name: "job-title",
       content: "全端工程師",
-    },
-    {
-      name: "experience-level",
-      content: "資深",
-    },
-    {
-      name: "availability",
-      content: "可面試",
     },
   ],
   link: [
@@ -148,11 +140,11 @@ let index = 0;
 
 // 核心技能數據
 const coreSkills = ref([
-  { name: "C# / ASP.NET", level: "Expert", percent: 90 },
-  { name: "Vue.js / Nuxt", level: "Advanced", percent: 85 },
+  { name: "C# / ASP.NET", level: "Expert", percent: 95 },
+  { name: "Vue.js / Nuxt", level: "Expert", percent: 90 },
   { name: "SQL Server", level: "Expert", percent: 90 },
+  { name: "HTML/CSS", level: "Expert", percent: 90 },
   { name: "JavaScript", level: "Advanced", percent: 85 },
-  { name: "HTML/CSS", level: "Advanced", percent: 80 },
   { name: "Node.js", level: "Intermediate", percent: 75 },
 ]);
 
@@ -514,6 +506,10 @@ onMounted(() => {
   .intro-card,
   .skills-card,
   .links-card {
+    padding: 1rem;
+  }
+
+  .typing-container {
     padding: 1.5rem;
   }
 
